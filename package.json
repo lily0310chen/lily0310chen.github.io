@@ -1,0 +1,25 @@
+{
+  "name": "lily0310chen.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "webpack-cli": "^3.3.11",
+    "webpack": "^4.41.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lily0310chen/lily0310chen.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lily0310chen/lily0310chen.github.io/issues"
+  },
+  "homepage": "https://github.com/lily0310chen/lily0310chen.github.io#readme"
+}

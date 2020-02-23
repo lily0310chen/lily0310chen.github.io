@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Getting Started</title>
+  <script src="https://unpkg.com/lodash@4.16.6"></script>
+</head>
+
+<body>
+  <script src="./src-test/index.js"></script>
+</body>
+
+</html>
+<!-- 
+  先加载lodash,再加载index.js.
+  因为在index.js里面,引用到了lodash,但是没有指明引用了，而是假定lodash的变量已经存在于全局环境中.
+  这样子容易带来以下几个问题：
+  1、脚本依赖了哪些外部库，并不能马上就知道。
+  2、如果一个依赖没有，或者引入的顺序不对，应用就不会正常执行下去。
+  3、如果一个依赖引用了，但是却没有用到，这样就会令浏览器强制下载无用的代码。
+-->
